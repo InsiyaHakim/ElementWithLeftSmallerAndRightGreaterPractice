@@ -12,7 +12,7 @@ const ElementWithLeftSmallerAndRightGreater = (arr, n) => {
             firstElement = arr[i]; //0(1)
         }
         maxarr.push(firstElement); //0(1)
-    }debugger;
+    }
     //we are starting with last element and comparing if other elements are smaller than that
     //0(1) assignment of i in loop
     for(let i = n -1; i >= 0; i--){ //0(n) for loop
